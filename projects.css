@@ -1,0 +1,125 @@
+#box {
+	height: auto;
+	width: 1030px;
+	padding: 30px 15px 0px 15px;
+	top: 10px;
+}
+
+.card {
+	width: 313px;
+	height: 230px;
+	border-radius: 4px;
+	display: inline-block;
+	margin-right: 13px;
+	margin-left: 13px;
+	margin-bottom: 30px;
+	top: 5px;
+	vertical-align:top;
+	overflow: hidden;
+	box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+	transition: box-shadow 0.3s cubic-bezier(.25,.8,.25,1);
+}
+
+.card:hover {
+	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.card:hover > .cardpic {
+	height: 150px;
+}
+
+.cardpic {
+	width: 313px;
+	height: 230px;
+	transition: height 0.4s;
+    background-position: center; 
+}
+
+#cardpic14 {
+	background-image: url("https://feen.us/ds6nt3.jpg");
+}
+
+#cardpic13 {
+	background-image: url("https://feen.us/94hrxm.jpg");
+}
+
+#cardpic12 {
+	background-image: url("https://feen.us/1v9se1.jpg");
+}
+
+#cardpic11 {
+	background-image: url("https://feen.us/fc9giz.jpg");
+}
+
+#cardpic10 {
+	background-image: url("https://feen.us/mkfuis.jpg");
+}
+
+#cardpic9 {
+	background-image: url("https://feen.us/vk432r.jpg");
+}
+
+#cardpic8 {
+	background-image: url("https://feen.us/7h0lhw.jpg");
+}
+
+#cardpic7 {
+	background-image: url("https://feen.us/oyeoi6.jpg");
+}
+
+#cardpic6 {
+	background-image: url("https://feen.us/z95sry.jpg");
+}
+
+#cardpic5 {
+	background-image: url("https://feen.us/syeb8q.jpg");
+}
+
+#cardpic4 {
+	background-image: url("https://feen.us/ia5u4l.jpg");
+}
+
+#cardpic3 {
+	background-image: url("https://feen.us/xdqk17.jpg");
+}
+
+#cardpic2 {
+	background-image: url("https://feen.us/p3hgp0.jpg");
+}
+
+#cardpic1 {
+	background-image: url("https://feen.us/revnwk.jpg");
+}
+
+.cardtextdiv {
+	height: 80px;
+	width: 313px;
+	background-color: #ffffff;
+}
+
+.cardtitle {
+	font-size: 30px;
+	color: #000000;
+	font-family: Roboto;
+	font-weight: 300;
+	text-align: center;
+	margin-top: 0px;
+	top: 4px;
+	position: relative;
+}
+
+.carddesc {
+	font-size: 20px;
+	color: #808080;
+	font-family: Roboto;
+	font-weight: 300;
+	text-align: center;
+	margin-top: -20px;
+}
+
+#nex {
+	position: relative;
+	top: 50px;
+	padding-bottom: 10px;
+    text-shadow: 1px 1px rgba(0, 0, 0, 1);
+}

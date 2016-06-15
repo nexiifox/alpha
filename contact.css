@@ -1,0 +1,44 @@
+#box1 {
+	height: 200px;
+	width: 1000px;
+	background-image: url("https://feen.us/u4pjbs.jpg");
+	background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
+	padding: 30px 30px 30px 30px;
+	border-radius: 20px;
+	position:absolute;
+	left:50%;
+	top:50%;
+	margin:-105px 0 0 -530px;
+}
+
+#title {
+	font-size: 70px;
+	color: #000000;
+	font-family: Roboto;
+	font-weight: 100;
+	text-align: center;
+	margin: 0;
+	padding-top: 0px;
+	padding-bottom: 20px;
+	cursor: default;
+}
+
+p {
+	font-size: 30px;
+	color: #000000;
+	font-family: Roboto;
+	font-weight: 100;
+	text-align: center;
+	margin: 0;
+	padding-top: 0px;
+	padding-bottom: 20px;
+	cursor: default;
+}
+
+#nex {
+	position: relative;
+	top: 76px;
+	padding-bottom: 25px;
+}
